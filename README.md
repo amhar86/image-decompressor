@@ -1,4 +1,4 @@
-# **Hardware Implementation of an Image Decompressor (SystemVerilog)**
+X# **Hardware Implementation of an Image Decompressor (SystemVerilog)**
 
 This project is focused on developing an image decompressor in **SystemVerilog** based on the **McMaster Image Compression (.mic18) specification**. The decompressed image is displayed on an **Altera DE2-115 FPGA board**.
 
@@ -73,8 +73,8 @@ This implementation follows a **modular design approach**, separating different 
 - Reads decompressed image from SRAM and outputs it to a monitor.
 
 ## **Features**
-✔️ Hardware-accelerated image decompression  
-✔️ Real-time VGA output on an FPGA 
-✔️ Efficient use of **SRAM** and **DPRAM**  
-✔️ **SystemVerilog** implementation with **FSMs**
-✔️ Optimized fixed-point arithmetic for efficient computation
+✔️ **Hardware-accelerated image decompression**  
+✔️ **Real-time VGA output on an FPGA**
+✔️ **Efficient use of SRAM and DPRAM**
+✔️ **SystemVerilog implementation with FSMs**
+✔️ **Optimized fixed-point arithmetic for efficient computation**
